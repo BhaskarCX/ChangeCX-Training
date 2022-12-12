@@ -1,39 +1,52 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML_Basics</title>
+    <title>Employee Interests Survey</title>
+<title>Employee Interests Survey</title>
 </head>
-<article>
-        <header>
-          <h1>Welcome to ChangeCX</h1>
-          <p>This is paragraph </p>
-        </header>
-        <nav>
-            <a href="https://www.changecx.com/">Home</a> |
-            <a href="https://www.changecx.com/omnichannel-retail">Services</a> |
-            <a href="https://www.changecx.com/about-us">About us</a> |
-            <a href="https://www.changecx.com/contact-us">Contact us</a>
-          </nav>
-        <p>Lorem Ipsum dolor set amet....</p>
-        <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates id, pariatur eligendi sunt officia modi dolores est velit, culpa impedit, quae dolorum ut enim ipsum esse quod temporibus. Vitae quisquam iure impedit illum ipsam?</article>
-        <h1>This is Heading H1</h1>
-        <h2>This is Heading H2</h2>
-        <h3>This is Heading H3</h3>
-        <h4>This is Heading H4</h4>
-        <H5>This is heading H5</H5>
-        <h6>This is Heading H6</h6>
-        </article>
-        <h2>Google Chrome</h2>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-        </article>
-        <Hr></Hr>
-        <footer>
-            <p>Author: Bhaskar kardam</p>
-            <p><a href="https://www.changecx.com/">Website</a></p>
-            <img src="/logo.jpg" alt="logo">
-          </footer>
+<body>
+<form action="https://www.changecx.com">
+
+<div align="center">
+
+<h1>Employee Interests Survey form</h1>
+   <label for="UserName">Your Name:</label> 
+   <br>
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+</br></br>
+<label for="Deptt">Enter your department:</label> 
+<br>
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+<p>Tell us about  yourself</p> 
+
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+<label for="exe">You exercise at home?</label> 
+<br>
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+<br>
+<label for="">Do you like to read about your favorite topics? </label> 
+<br>
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+
+<br>
+<label for="moviepref">genre of movies do you like?</label>
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</br></br>
+
+<input type=submit value="Submit form">
+</div>
+</form>
 </body>
 </html>
