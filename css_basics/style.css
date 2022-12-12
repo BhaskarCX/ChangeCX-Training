@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100%;
+    display :flex;
+    border: 2px solid black;
+    flex-direction: column;
+    
+    
+}
+
+.first-div{
+    background-color: yellow ;
+    height: 30%;
+}
+#second-div{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+.second{
+    background-color: bisque;
+    width: 30%;
+}
+.fourth-fifth-sixth{
+    display: block;
+    flex-direction: row;
+    width: 70%;
+}
+.fifth-sixth{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.third-div{
+    background-color: blue;
+    height: 30%;
+}
+.fourth{
+    background-color: red;
+    width: 100%;
+    height: 50%;
+}
+.fifth{
+    background-color: brown;
+    width: 50%;
+    
+}
+.sixth{
+    background-color: blueviolet;
+    width :50%;
+    
+}
