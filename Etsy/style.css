@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+.logo {
+  font-family: "Lora", serif;
+  color: rgb(245, 154, 44);
+  margin: 0px 30px 10px 10px;
+  font-size: 36px;
+  width: 10%;
+}
+.top-header-section {
+  margin: 20px;
+  /* border: 2px dotted grey; */
+  display: flex;
+  height: 44px;
+}
+.search-bar {
+  display: flex;
+  width: 160%;
+  margin-right: 0px;
+}
+.search-bar input {
+  padding-left: 40px;
+  width: 100%;
+  border-radius: 25px;
+  outline: none;
+}
+.search-bar input:hover {
+  border: 3px solid black;
+  border-radius: 30px;
+}
+.search-bar button {
+  display: float;
+  margin: -5px;
+}
+.search-icon {
+  margin: 12px 0px 0px -35px;
+}
+.signin {
+  /* margin-left: 70px; */
+  display: flex;
+  margin-bottom: 11px;
+}
+.signin-btn {
+  padding: 12px;
+  padding-left: 45px;
+  background: none;
+  border: none;
+  height: 20px;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+.fa-user {
+  padding-top: 4px;
+}
+.cart-btn {
+  height: 20px;
+}
+.cart-wish {
+  display: flex;
+  margin-left: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0px;
+  color: black;
+}
+.cart {
+  margin: 10px;
+  color: black;
+}
+ .fa-heart:hover{
+    content: "\f004";
+    color: black
+}
+.fa-heart {
+  align-items: center;
+  padding-right: 20px;
+  color: black;
+}
+.fa-cart-shopping {
+  color: black;
+}
+.signin-cart-wish {
+  display: flex;
+  /* margin-left: 70px; */
+  width: 14%;
+  padding-left: 00px;
+}
+
+/* NAV-BAR */
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+.nav-bar ul li:hover {
+  text-decoration: underline;
+}
+.nav-bar ul li {
+  list-style: none;
+  margin-right: 2%;
+  text-decoration: none;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Heading */
+.main-heading {
+  text-align: center;
+  height: 40%;
+  width: 100%;
+  border-top: 2px solid whitesmoke;
+  background-color: rgb(215, 230, 245);
+}
+.main-heading h1 {
+  margin-top: 70px;
+  font-family: Guardian-EgypTT, Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-weight: 200;
+}
+.nav-choices {
+  display: flex;
+  height: 35%;
+  margin-top: -100px;
+  width: 100%;
+
+  /* margin-left: 20px; */
+}
+.nav-choices ul {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.nav-choices ul li {
+  list-style: none;
+  display: inline;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  justify-content: center;
+}
+.nav-choices ul li img {
+  display: flex;
+
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.nac-choice-img:hover{
+    transform: scale(1.1);
+}
+.arrange-center {
+  text-align: center;
+}
+
+.deals {
+  display: flex;
+  justify-content: space-between;
+}
+.deals h3 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.deals a {
+  display: flex;
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+.deals a:hover {
+  text-decoration: underline;
+}
+
+/* Deals of th day Section */
+.card {
+  display: flex;
+  margin: -100px 0px 0px 0px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 90%;
+}
+.common-card:hover{
+    transform: scale(1.1);
+    box-shadow: #2f466c;
+    
+}
+
+.common-card {
+  height: 50%;
+  width: 15%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  /* justify-content: space-between; */
+  text-align: center;
+  /* padding-bottom: 20px; */
+  /* margin-right: 20px; */
+  outline: none;
+}
+.common-card a {
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+.common-card a:hover {
+  text-decoration: underline;
+}
+.wear-type {
+  font-size: 20px;
+}
+.common-card img {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+/* .common-card-end{
+    height: 50%;
+    width: 20%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-right: 20px;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.common-card-end img{
+    height: 80%;
+  width: auto;
+  display: flex;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  justify-content: space-between;
+
+} */
+
+/* Etsy-section */
+.wt-etsy {
+  /* margin-top: 20px; */
+  padding-top: 30px;
+  text-align: center;
+  background-color: #fdebd2;
+  height: 80%;
+}
+.etsy-heading p {
+  text-decoration: underline;
+}
+.etsy-heading {
+  margin-bottom: 20px;
+}
+
+.etsy-heading h2 {
+  font-size: 44px;
+  font-family: Guardian-EgypTT, Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-weight: 300;
+}
+
+.et-sec {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  margin: 50px 50px 0px 50px;
+}
+.et-sec p {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-spacing: 5px;
+  line-height: 28px;
+}
+.et-sec-head {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.et-sec1 span{
+    text-decoration: dashed underline;
+    text-decoration-color: black;
+}
+
+.et-sec1 {
+  margin-right: 20px;
+  width: 33%;
+}
+
+.et-sec2 {
+  width: 33%;
+  margin-right: 20px;
+}
+.et-sec3 {
+  width: 33%;
+}
+.help-question {
+  margin-top: 40px;
+}
+.help-question button {
+  font-weight: 800;
+  padding: 15px 25px;
+  margin-top: 15px;
+  background-color: FDEBD2;
+  border-radius: 50px;
+}
+.help-question button:hover {
+  border: 3px solid black;
+  text-decoration: underline;
+}
+/* Subsrcibe_ Section */
+.subscribe {
+  height: 40%;
+  background-color: #d7e6f5;
+  padding-top: 50px;
+}
+.subscribe a {
+  background-color: white;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  text-decoration: none;
+  height: 100%;
+  border-left: 2px solid black;
+}
+
+.subscribe p {
+  text-align: center;
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.subscribe-input-section input {
+  border: 1px solid black;
+  border-radius: 25px 0px 0px 25px;
+  width: 30%;
+  padding: 10px 25px;
+  border-right: none;
+}
+.subscribe-input-section input:hover{
+    outline: none;
+    border: 2px solid black;
+    
+}
+.subscribe-input-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.subscribe-input-section button {
+  border: 1px solid black;
+  border-radius: 0px 25px 25px 0px;
+  background-color: white;
+  border-left: none;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.subscribe-input-section button:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
+.subscribe-sec2 {
+  margin-top: 40px;
+  background-color: #4d6bc6;
+  height: 60%;
+}
+.subscribe-sec2 i {
+  margin-right: 10px;
+  color: white;
+}
+.subscribe-sec2 p {
+  color: white;
+  text-decoration: dashed underline;
+  padding-top: 55px;
+}
+
+/* Footer1-Section */
+.footer1 {
+  display: flex;
+  justify-content: center;
+  background-color: #2f466c;
+  height: 50%;
+  color: white;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.foot-head {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer1 ul {
+  line-height: 30px;
+}
+.footer1 ul li {
+  list-style: none;
+  text-align: left;
+}
+/* MAIN_FOOTER */
+.footer2 {
+  height: 15%;
+  background-color: #232347;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.foo-left ul {
+  margin-top: 15%;
+  display: flex;
+  list-style: none;
+  margin-left: 20px;
+}
+.foo-left ul li {
+  margin: 0px 5px;
+}
+.foo-right ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 7%;
+  margin-right: 20px;
+}
+.foo-right ul li {
+  margin: 0px 10px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.download-etsy{
+    margin-top: 20px;
+    
+}
+
+.download-etsy button{
+    padding: 12px 40px;
+    border-radius: 50px;
+    background-color: #2f466c;
+    color: white;
+    border:2px solid white;
+}
+.download-etsy button:hover{
+    text-decoration: underline;
+    
+  
+    
+}
+.social-icon{
+    margin-top: 30px;
+
+}
+.social-icon i{
+    padding: 10px;
+}
