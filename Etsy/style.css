@@ -1,8 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
+
 .container {
+    max-width: 1440px;
+    margin:  auto;
   width: 100%;
 }
 .logo {
@@ -93,6 +97,9 @@
 }
 
 /* NAV-BAR */
+.nav-bar{
+    height: 23px;
+}
 
 .nav-bar ul {
   display: flex;
@@ -155,8 +162,8 @@
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.nac-choice-img:hover{
-    transform: scale(1.1);
+.nav-choices  img:hover{
+    transform: scale(1.2);
 }
 .arrange-center {
   text-align: center;
@@ -481,4 +488,7 @@ li:hover{
 }
 .social-icon i{
     padding: 10px;
+}
+.nohover{
+    pointer-events: none;
 }
