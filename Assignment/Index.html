@@ -1,0 +1,569 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- css-file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css ">
+    <!-- Font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .purchase-btn:hover{
+                background-color: black;
+            }
+            h5:hover{
+                text-decoration: underline;
+                color: blue;
+            }
+            .card:hover{
+                transform: scale(1.02);
+                box-shadow: 4px 4px 4px 4px rgba(60, 60, 93, 0.33)
+            }
+            .logo:hover{
+                opacity: 0.8;
+            }
+
+        </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="a col-3 col-lg-2">
+                    <div class="logo">
+                        <img src="/Assignment/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="aa col-9 col-lg-5 order-lg-3 order-2  d-flex justify-content-end ">
+                    <button type="button" class="btn btn-light me-2 "><i class=" fa-solid fa-user "></i>
+                        <span class="d-none d-sm-inline-block">Sign-in</span></button>
+
+                    <button type="button" class="btn btn-light me-2 "><i class="fa-solid fa-heart "></i>
+                        <span class="d-none d-sm-inline-block">Wishlist</span></button>
+                    <button type="button" class="btn btn-light  "><i class="fa-sharp fa-solid fa-cart-shopping"></i> My
+                        Cart</button>
+                </div>
+                <div class="aaa col-12 order-lg-2 order-3 col-lg-5 mt-3">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control w-50" placeholder="Search">
+                            <select class="form-select w-25 " aria-label="Default select example">
+                                <option selected>All type</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <button type="button" class="btn btn-primary"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </header>
+
+    <hr class="m-0">
+    <!-- Navbar -->
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#">Hot offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Gift boxes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Menu items</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Menu name</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Others
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Submenu one</a></li>
+                                <li><a class="dropdown-item" href="#">Submenu two</a></li>
+                                <li><a class="dropdown-item" href="#">Submenu three</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section bar -->
+    <section class="bg-primary main-sec ">
+        <div class="container  ">
+            <h1 class=" best-cat text-white mt-5  col-6 ">Best products & brands in our store</h1>
+            <p class="text-white fs-5">Trendy Products, Factory Prices, Excellent Service</p>
+            <div class="section-btn pb-5">
+                <button type="button" class="btn  purchase-btn text-white" style="background-color: #fd7e14; ">Purchase now</button>
+                <button type="button" class="btn btn-light  ">Learn more</button>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="new-products">
+        <div class="container">
+            <h3 class="my-3">New products</h3>
+            <div class="card-sec d-flex ">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                    <!-- CARD 1 -->
+                    <div class="col">
+                        <div class="card w-100 ">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/1.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$790.50</p>
+                                <p class="card-title text-secondary  m-0">GoPro HERO6 4K Action</p>
+                                <p class="card-text m-0">Camera - Black</p>
+                                <span class="cards-btn  ">
+                                    <button type="button" class="btn btn-primary  col-6 col-lg-7 ">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3   col-lg-3"><i
+                                            class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2  -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/2.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$320.00</p>
+                                <p class="card-title text-secondary  m-0">Canon camera 20x zoom, Black</p>
+                                <p class="card-text m-0">color EOS 2000</p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3"><i
+                                            class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/3.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$120.00</p>
+                                <p class="card-title text-secondary  m-0">Xiaomi Redmi 8 Original Global</p>
+                                <p class="card-text m-0">Version 4GB</p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7 ">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3"><i
+                                            class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$120.00</p>
+                                <p class="card-title text-secondary  m-0">Apple iPhone 12 Pro 6.1" RAM</p>
+                                <p class="card-text m-0">6GB 512GB Unlocked</p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3"><i
+                                            class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 5 -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$120.00</p>
+                                <p class="card-title text-secondary  m-0">Apple Watch Series 1 Sport</p>
+                                <p class="card-text m-0">Case 38mm Black</p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3">
+                                        <i class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.webp "
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$120.00</p>
+                                <p class="card-title text-secondary  m-0">T-shirts with multiple colors, for</p>
+                                <p class="card-text m-0">men and lady </p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3">
+                                        <iclass= class="fa-solid fa-heart text-secondary p-1"></iclass=>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 7 -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.webp "
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$99.50</p>
+                                <p class="card-title text-secondary  m-0">Gaming Headset 32db </p>
+                                <p class="card-text m-0">Blackbuilt in mic</p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3">
+                                        <i class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="col">
+                        <div class="card w-100">
+                            <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp"
+                                class="card-img-top w-75 ms-4" alt="...">
+                            <div class="card-body border-top ">
+                                <p class="pro-price m-0">$120.00</p>
+                                <p class="card-title text-secondary  m-0">T-shirts with multiple colors, for</p>
+                                <p class="card-text m-0">men and lady </p>
+                                <div class="cards-btn">
+                                    <button type="button" class="btn btn-primary col-6 col-lg-7">Add to cart</button>
+                                    <button type="button" class="btn btn-light my-3 col-lg-3">
+                                        <i class="fa-solid fa-heart text-secondary p-1"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Why Choose us Section -->
+    <div class="info-section bg-secondary bg-opacity-10 mt-5 pt-5">
+        <div class="container">
+            <h3 class="pb-4">Why Choose us</h3>
+            <div class="cards d-flex row">
+                <div class="sec-card d-flex col-md-4">
+                    <div class="icon bg-white rounded-circle me-3  " style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-money-bill text-primary  fa-2xl me-4 " style="margin-top:36px ;margin-left:20px;"></i>
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Reasonable price</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+                <div class="sec-card d-flex col-md-4 ">
+                    <div class="icon bg-white rounded-circle me-3  " style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-star fa-2xl me-4 text-primary " style="margin-top:36px ;margin-left:20px;"></i>
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Best quality</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+                <div class="sec-card d-flex  col-md-4 ">
+                    <div class="icon bg-white rounded-circle me-3  " style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-plane fa-2xl  me-4 text-primary " style="margin-top:36px ;margin-left:20px;"></i>
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Worldwide shipping</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+                <div class="sec-card d-flex  col-md-4 ">
+                    <div class="icon bg-white rounded-circle me-3" style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-users fa-2xl  me-4 text-primary " style="margin-top:36px ;margin-left:20px;"></i>
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Customer satisfaction</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+                <div class="sec-card d-flex col-md-4">
+                    <div class="icon-lg bg-white rounded-circle me-3  " style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-thumbs-up fa-2xl me-4 text-primary " style="margin-top:36px ;margin-left:20px;"></i>
+
+
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Happy customer</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+                <div class="sec-card d-flex col-md-4">
+                    <div class="icon bg-white rounded-circle  me-3" style="height: 72px; width: 72px;">
+                        <i class="fa-solid fa-box fa-2xl me-4 text-primary" style="margin-top:36px ;margin-left:20px;"></i>
+                    </div>
+
+                    <div class="sec-content">
+                        <h5 class="">Thousand items</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmor</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- BLOG POST  -->
+
+
+    <div class="container">
+        <h4 class="py-4">Blog posts</h4>
+        <div class="blog-post row d-flex ">
+            <div class=" blog col-lg-3 col-sm-6 col-xs-12 ">
+                <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/posts/1.webp"
+                    class="card-img-top rounded" height="160" alt="...">
+                <div class="card-body">
+                    <p class="text-body-tertiary"><i class="fa-solid fa-calendar-days"></i> 23.12.2021</p>
+                    <h5><a class="text-decoration-none text-dark" href="">How to promote brands</a> </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class=" blog col-sm-6 col-lg-3 hover-shadow">
+                <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/posts/2.webp"
+                    class="card-img-top rounded" height="160" alt="...">
+                <div class="card-body">
+                    <p class="text-body-tertiary"><i class="fa-solid fa-calendar-days"></i> 03.09.2022</p>
+                    <h5><a class="text-decoration-none text-dark" href="">How we handle shipping</a> </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class=" blog col-sm-6 col-lg-3 ">
+                <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/posts/3.webp"
+                    class="card-img-top rounded" height="160" alt="...">
+                <div class="card-body">
+                    <p class="text-body-tertiary"><i class="fa-solid fa-calendar-days"></i> 13.12.2021</p>
+                    <h5><a class="text-decoration-none text-dark" href="">How to promote brands</a> </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="blog col-lg-3 col-sm-6 ">
+                <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/posts/4.webp"
+                    class="card-img-top rounded" height="160" alt="...">
+                <div class="card-body">
+                    <p class="text-body-tertiary"><i class="fa-solid fa-calendar-days"></i> 25.12.2022</p>
+                    <h5 ><a style="text-decoration: none; color: black;" href="">Success story of sellers</a> </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-section -->
+    <footer class="bg-secondary bg-opacity-10  mt-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="logo col-lg-2">
+                    <img src="/Assignment/logo.svg" alt="">
+                    <div class="copyright pt-3">© 2018- 2021 Templatemount. All rights reserved.</div>
+                </div>
+                <!-- Accordian -->
+                <!-- <div class="store col-lg-2 col-md-4">
+                    <button class="fw-bold d-block d-md-none" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Store
+                    </button>
+                    <p class="fw-bold d-none d-md-block">Store</p>
+                    <ul class="list-unstyled content" id="collapseWidthExample">
+                        <li>About us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div> -->
+                <!-- <div class="information col-lg-2 col-md-4">
+                    <button class="fw-bold d-block d-md-none" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Information
+                    </button>
+                    <p class="fw-bold d-none d-md-block">Information</p>
+                    <ul class="list-unstyled content" id="collapseWidthExample">
+                        <li>Help center</li>
+                        <li>Money refund</li>
+                        <li>Shipping info</li>
+                        <li>Refunds</li>
+                    </ul>
+                </div> -->
+                <!-- Content-section -->
+                <div class="information  col-lg-2 col-md-4">
+                    <p class="fw-bold">Store</p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+
+                <div class="information  col-lg-2 col-md-4">
+                    <p class="fw-bold">Information</p>
+                    <ul class="list-unstyled">
+                        <li>Help center</li>
+                        <li>Money refund</li>
+                        <li>Shipping info</li>
+                        <li>Refunds</li>
+                    </ul>
+                </div>
+                <div class="support col-lg-2 col-sm-3 col-md-4">
+                    <p class="fw-bold">Support</p>
+                    <ul class="list-unstyled">
+                        <li>Help center</li>
+                        <li>Documents</li>
+                        <li>Accounts restore</li>
+                        <li>My orders</li>
+                    </ul>
+                </div>
+                <div class="newsletter col-lg-4 col-md-12 ">
+                    <p class="fw-bold">Newsletter</p>
+                    <p>Stay in touch with latest updates about our products and offers</p>
+
+                    <form class="container-fluid ps-0">
+                        <div class=" e-mail input-group ">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="basic-addon1">
+
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        </div>
+                    </form>
+
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="foo2 d-flex pb-5 justify-content-between">
+                <div class="payments-method pt-2">
+                    <i class="fa-brands fa-cc-visa fa-xl"></i>
+                    <i class="fa-brands fa-cc-amex fa-xl"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-xl"></i>
+                    <i class="fa-brands fa-cc-paypal fa-xl"></i>
+                </div>
+                <div class="language ">
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class="" src="/Assignment/icons8-usa-48.png" style="height: 30px; width: 30px;"
+                                alt="">English
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu ">
+                            <li><a class="dropdown-item active" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">Russian</a></li>
+                            <li><a class="dropdown-item" href="#">Arabic</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </footer>
+    <div class="fixed-bottom text-end m-1">
+        <a class="btn btn-dark text-white rounded-pill " href="">Download</a>
+    </div>
+</body>
+<!-- javascript-link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

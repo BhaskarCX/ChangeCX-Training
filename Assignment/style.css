@@ -1,0 +1,31 @@
+/* .ac-sec button{
+    width: 120px;
+    height: 40px;
+} */
+.main-sec{
+    padding: 55px 0;
+}
+.purchase-btn:hover{
+    background-color: rgb(177, 76, 12);
+}
+.best-cat{
+    font-size: 55px;
+}
+footer{
+    padding-top: 45px;
+    /* height: 300px; */
+}
+.navbar-nav>li>a:hover{
+    text-decoration: underline;
+}
+.purchase-btn:hover{
+    background-color: aliceblue;
+}
+li:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+
