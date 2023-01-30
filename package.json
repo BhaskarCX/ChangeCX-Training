@@ -1,0 +1,23 @@
+{
+  "name": "changecx-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskarkardam2003/ChangeCX-Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskarkardam2003/ChangeCX-Training/issues"
+  },
+  "homepage": "https://github.com/bhaskarkardam2003/ChangeCX-Training#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
